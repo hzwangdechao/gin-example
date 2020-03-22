@@ -14,6 +14,7 @@ import (
 
 // 获取多个文章
 func GetArticles(c *gin.Context) {
+	logging.Info("query many articles")
 	data := make(map[string]interface{})
 	maps := make(map[string]interface{})
 
