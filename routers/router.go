@@ -7,7 +7,7 @@ import (
 	v1 "gin-example/routers/api/v1"
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	_ "github.com/swaggo/gin-swagger/example/basic/docs"
+	_ "gin-example/docs"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 )
 
